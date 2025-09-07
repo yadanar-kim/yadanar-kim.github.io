@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <form action="register.php" method="GET">
+        <div>
+            <label for="name">Student Name</label><br>
+            <input type="text" name="studentname" id="name" placeholder="eg.MgMg" >
+        </div>
+        <br>
+
+        <div>
+            <label for="age">Student Age</label><br>
+            <input type="number" name="studentage" id="age" min="18" max="30" step="0.03" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="phno">Student Phone Number</label><br>
+            <input type="number" name="studentphone" id="phno"  required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email123">Student Email Address</label><br>
+            <input type="email" name="studentemail" id="email123" placeholder="Enter Your Email"  required>
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
